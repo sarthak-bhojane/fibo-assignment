@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+/* css file for all codes in one file */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Bottom Navigation styles */
+.navbar {
+  border-top: 1px solid #ccc;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #ddd !important;
+}
+
+/* GoalTracker styles */
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.progress {
+  height: 25px;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Graph styles */
+.recharts-wrapper {
+  margin-top: 20px;
+}
